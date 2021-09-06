@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MavenProject.e2efw.searchPage">
+        <methods>
+          <include name="pageSearching"/>
+        </methods>
+      </class> <!-- MavenProject.e2efw.searchPage -->
+      <class name="MavenProject.e2efw.bookfinding">
+        <methods>
+          <include name="contactus_details"/>
+          <include name="click_on_book"/>
+        </methods>
+      </class> <!-- MavenProject.e2efw.bookfinding -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
